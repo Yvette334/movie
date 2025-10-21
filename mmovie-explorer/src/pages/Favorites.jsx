@@ -1,5 +1,6 @@
 import useFavorites from "../hooks/useFavorites";
 import MovieCard from "../components/MovieCard";
+import { Link } from "react-router-dom";
 
 export default function Favorites() {
   const { favorites, toggleFavorite } = useFavorites();
