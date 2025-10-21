@@ -33,6 +33,7 @@ A modern, responsive single-page application built with React that allows users 
 - **Styling**: CSS3 with modern flexbox/grid layouts
 
 ## 📁 Project Structure
+```
 movie/
 ├── public/
 │ ├── vite.svg
@@ -65,6 +66,7 @@ movie/
 ├── index.html
 ├── README.md
 └── .gitignore
+```
 
 ## 🚀 Installation & Setup
 
