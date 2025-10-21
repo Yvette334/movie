@@ -34,32 +34,44 @@ A modern, responsive single-page application built with React that allows users 
 
 ## 📁 Project Structure
 movie/
-├── src/
-│   ├── components/
-│   │   ├── CategoryFilter.jsx
-│   │   ├── MovieCard.jsx
-│   │   ├── Navbar.jsx
-│   │   └── SearchBar.jsx
-│   ├── pages/
-│   │   ├── Favorites.jsx
-│   │   ├── Home.jsx
-│   │   └── MovieDetails.jsx
-│   ├── hooks/
-│   │   ├── useFetchMovies.js
-│   │   └── useFavorites.js
-│   ├── utils/
-│   │   └── api.js
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css    
-│   ├── home.png
-│   ├── movie-details.png
-│   └── favorites.png
-├── package.json
-├── package-lock.json
-├── vite.config.js
-├── index.html
-├── README.md
+├── public/                 # Static assets
+│   ├── vite.svg
+│   └── (other static files)
+│
+├── src/                    # Source code
+│   ├── components/         # Reusable UI components
+│   │   ├── CategoryFilter.jsx  # Genre filtering component
+│   │   ├── MovieCard.jsx       # Individual movie display card
+│   │   ├── Navbar.jsx          # Navigation header component
+│   │   └── SearchBar.jsx       # Search input component
+│   │
+│   ├── pages/              # Page-level components
+│   │   ├── Favorites.jsx       # Favorites movies page
+│   │   ├── Home.jsx            # Main home page with movie list
+│   │   └── MovieDetails.jsx    # Single movie details page
+│   │
+│   ├── hooks/              # Custom React hooks
+│   │   ├── useFetchMovies.js   # Hook for fetching movie data
+│   │   └── useFavorites.js     # Hook for favorites management
+│   │
+│   ├── utils/              # Utility functions
+│   │   └── api.js              # API service functions
+│   │
+│   ├── App.jsx             # Main app component with routing
+│   ├── main.jsx            # Application entry point
+│   └── index.css           # Global styles
+│
+├── screenshots/            # Project screenshots (recommended)
+│   ├── home.png            # Home page screenshot
+│   ├── movie-details.png   # Movie details screenshot
+│   └── favorites.png       # Favorites page screenshot
+│
+├── package.json            # Project dependencies and scripts
+├── package-lock.json       # Dependency lock file
+├── vite.config.js          # Vite configuration
+├── index.html              # HTML template
+├── README.md               # Project documentation
+└── .gitignore              # Git ignore rules
 
 ## 🚀 Installation & Setup
 
