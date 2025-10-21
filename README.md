@@ -33,24 +33,33 @@ A modern, responsive single-page application built with React that allows users 
 - **Styling**: CSS3 with modern flexbox/grid layouts
 
 ## 📁 Project Structure
-src/
-├── components/ # Reusable UI components
-│ ├── CategoryFilter.jsx # Genre-based filtering
-│ ├── MovieCard.jsx # Individual movie display
-│ ├── Navbar.jsx # Navigation header
-│ └── SearchBar.jsx # Search functionality
-├── pages/ # Route components
-│ ├── Favorites.jsx # Favorites movies page
-│ ├── Home.jsx # Main movies listing
-│ └── MovieDetails.jsx # Single movie details
-├── hooks/ # Custom React hooks
-│ ├── useFetchMovies.js # Movie data fetching
-│ └── useFavorites.js # Favorites management
-├── utils/ # Utility functions
-│ └── api.js # API service functions
-├── App.jsx # Main app component
-└── main.jsx # App entry point
-
+movie/
+├── src/
+│   ├── components/
+│   │   ├── CategoryFilter.jsx
+│   │   ├── MovieCard.jsx
+│   │   ├── Navbar.jsx
+│   │   └── SearchBar.jsx
+│   ├── pages/
+│   │   ├── Favorites.jsx
+│   │   ├── Home.jsx
+│   │   └── MovieDetails.jsx
+│   ├── hooks/
+│   │   ├── useFetchMovies.js
+│   │   └── useFavorites.js
+│   ├── utils/
+│   │   └── api.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css    
+│   ├── home.png
+│   ├── movie-details.png
+│   └── favorites.png
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── index.html
+├── README.md
 
 ## 🚀 Installation & Setup
 
@@ -63,10 +72,10 @@ src/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Yvette334/movie.git
-   cd movie ```
+   cd movie 
    npm install
    npm run dev
-``
+   ```
 ## How to Use
 Browsing Movies
 The home page displays all available movies
