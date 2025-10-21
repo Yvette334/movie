@@ -35,30 +35,30 @@ A modern, responsive single-page application built with React that allows users 
 ## 📁 Project Structure
 movie/
 ├── public/
-│   ├── vite.svg
-│   └── (other static files)
+│ ├── vite.svg
+│ └── (other static files)
 ├── src/
-│   ├── components/
-│   │   ├── CategoryFilter.jsx
-│   │   ├── MovieCard.jsx
-│   │   ├── Navbar.jsx
-│   │   └── SearchBar.jsx
-│   ├── pages/
-│   │   ├── Favorites.jsx
-│   │   ├── Home.jsx
-│   │   └── MovieDetails.jsx
-│   ├── hooks/
-│   │   ├── useFetchMovies.js
-│   │   └── useFavorites.js
-│   ├── utils/
-│   │   └── api.js
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
+│ ├── components/
+│ │ ├── CategoryFilter.jsx
+│ │ ├── MovieCard.jsx
+│ │ ├── Navbar.jsx
+│ │ └── SearchBar.jsx
+│ ├── pages/
+│ │ ├── Favorites.jsx
+│ │ ├── Home.jsx
+│ │ └── MovieDetails.jsx
+│ ├── hooks/
+│ │ ├── useFetchMovies.js
+│ │ └── useFavorites.js
+│ ├── utils/
+│ │ └── api.js
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
 ├── screenshots/
-│   ├── home.png
-│   ├── movie-details.png
-│   └── favorites.png
+│ ├── home.png
+│ ├── movie-details.png
+│ └── favorites.png
 ├── package.json
 ├── package-lock.json
 ├── vite.config.js
