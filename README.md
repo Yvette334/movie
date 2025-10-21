@@ -58,7 +58,6 @@ movie/
 │ └── index.css
 ├── screenshots/
 │ ├── home.png
-│ ├── movie-details.png
 │ └── favorites.png
 ├── package.json
 ├── package-lock.json
