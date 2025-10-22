@@ -4,7 +4,7 @@ export default function MovieCard({ movie, isFavorite, onToggleFavorite }) {
   return (
     <div className="bg-slate-800 rounded-xl overflow-hidden shadow-md hover:shadow-accent/40 transition">
       <img
-        src={movie.image?.medium || "https://via.placeholder.com/210x295?text=No+Image"}
+        src={movie.image?.medium || "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxZYeqBNbv7SJ03D1_R5yEnMeDZbX_0CIlCQ&s"}
         alt={movie.name}
         className="w-full object-cover"
       />
